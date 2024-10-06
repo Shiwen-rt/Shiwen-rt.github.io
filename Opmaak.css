@@ -36,6 +36,6 @@ ul {
     background-color: #000000;
   }
 
-  div p { 
-text-decoration: dotted;
+  .center-text {
+    text-align: center;
 }
