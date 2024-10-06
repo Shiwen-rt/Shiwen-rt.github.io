@@ -36,6 +36,6 @@ ul {
     background-color: #000000;
   }
 
-  p { 
-text-decoration-style: dotted;
+  div { 
+text-decoration: dotted;
 }
