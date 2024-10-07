@@ -1,16 +1,20 @@
+/* Hier bepaal ik de achtergrond kleur */
 body {
-    background-color: lightskyblue;
-    margin: 0px;
+    background-color: lightskyblue; 
     }
 
-h3{color:black;}    
+/*Hier zie je dat ik uitkies welke kleur de letters moeten zijn*/
+h3{color:black;}  
 h1{color:black;}
 
+
+/*Er zit geen ruimte tussen de andere elementen en ik heb geen excacte plek uitgekozen de margin en padding zijn allebnei 0*/
 img {
 margin: 0;
 padding: 0;
 }
 
+/*Hier bepaal ik de kleur van mijn navigatie balk, hoe hoog en laag hij moet en ik heb geen aparte stijl gedaan*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -19,46 +23,42 @@ ul {
     background-color: #4a80ff;
   }
   
+  /*Dit staat er zodat de navigatie balk naar links gaat*/
   li {
     float: left;
   }
   
   li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    color: white; /*Witte tekst kleur in de navbar*/
+    text-align: center; /*Zorgt ervoor dat de tekst in de navbar staat*/
+    padding: 14px 16px; /*Dat zorgt ervoor dat het 14 pixels naar boven of onder en 16 pixels naar de zijkant*/
     text-decoration: none;
   }
   
   
   li a:hover {
-    background-color: #000000;
+    background-color: #000000; /*Zorgt voor zwarte achtergrond kleur*/
   }
 
   .center-text {
-    text-align: center;
+    text-align: center; /*Zorgt voor dat de tekst in midden komt te staan*/
 }
 
-.center-image {
+.center-image { /*Zorgt ook voor plaatje in het midden*/
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-footer {
+footer { /*Kleur van de footer en hoe groot hij is*/
   background-color: aliceblue;
   height: 12vh;
 }
 
-.left-image{
+.left-image{ /*Dat de plaatje naar links staat*/
   display: block;
   margin: auto;
   margin-right: auto;
 }
 
-.right-image{
-  display: block;
-  margin: auto;
-  margin-left: auto;
-}
