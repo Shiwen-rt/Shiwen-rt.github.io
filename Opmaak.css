@@ -50,3 +50,9 @@ footer {
   background-color: aliceblue;
   height: 12vh;
 }
+
+.left-image {
+  position: absolute;
+  top: auto;
+  left: auto;
+}
