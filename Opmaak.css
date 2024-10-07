@@ -51,3 +51,14 @@ footer {
   height: 12vh;
 }
 
+.left-image{
+  display: block;
+  margin: auto;
+  margin-right: auto;
+}
+
+.right-image{
+  display: block;
+  margin: auto;
+  margin-left: auto;
+}
